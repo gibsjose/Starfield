@@ -202,6 +202,12 @@
 		D8BD4DF6194FBF110009D64B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BD4DF5194FBF110009D64B /* AppDelegate.m */; };
 		D8BD4DF9194FBF110009D64B /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BD4DF8194FBF110009D64B /* HelloWorldScene.m */; };
 		D8BD4DFC194FBF110009D64B /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BD4DFB194FBF110009D64B /* IntroScene.m */; };
+		D8BD4E0E194FBFEF0009D64B /* iTunesArtwork@2x.ai in Resources */ = {isa = PBXBuildFile; fileRef = D8BD4E08194FBFEF0009D64B /* iTunesArtwork@2x.ai */; };
+		D8BD4E0F194FBFEF0009D64B /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BD4E09194FBFEF0009D64B /* iTunesArtwork@2x.png */; };
+		D8BD4E10194FBFEF0009D64B /* Spacefield.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BD4E0A194FBFEF0009D64B /* Spacefield.png */; };
+		D8BD4E11194FBFEF0009D64B /* SpacefieldAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BD4E0B194FBFEF0009D64B /* SpacefieldAppIcon.png */; };
+		D8BD4E12194FBFEF0009D64B /* Starfield.ai in Resources */ = {isa = PBXBuildFile; fileRef = D8BD4E0C194FBFEF0009D64B /* Starfield.ai */; };
+		D8BD4E13194FBFEF0009D64B /* StarfieldAppIconV2.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BD4E0D194FBFEF0009D64B /* StarfieldAppIconV2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -613,6 +619,12 @@
 		D8BD4DF8194FBF110009D64B /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
 		D8BD4DFA194FBF110009D64B /* IntroScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroScene.h; path = Classes/IntroScene.h; sourceTree = "<group>"; };
 		D8BD4DFB194FBF110009D64B /* IntroScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IntroScene.m; path = Classes/IntroScene.m; sourceTree = "<group>"; };
+		D8BD4E08194FBFEF0009D64B /* iTunesArtwork@2x.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "iTunesArtwork@2x.ai"; sourceTree = "<group>"; };
+		D8BD4E09194FBFEF0009D64B /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		D8BD4E0A194FBFEF0009D64B /* Spacefield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spacefield.png; sourceTree = "<group>"; };
+		D8BD4E0B194FBFEF0009D64B /* SpacefieldAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpacefieldAppIcon.png; sourceTree = "<group>"; };
+		D8BD4E0C194FBFEF0009D64B /* Starfield.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Starfield.ai; sourceTree = "<group>"; };
+		D8BD4E0D194FBFEF0009D64B /* StarfieldAppIconV2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StarfieldAppIconV2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -675,6 +687,7 @@
 		D8BD4B94194FBF0B0009D64B /* Starfield */ = {
 			isa = PBXGroup;
 			children = (
+				D8BD4E07194FBFEF0009D64B /* Images */,
 				D8BD4B95194FBF0B0009D64B /* Resources */,
 				D8BD4BBE194FBF0C0009D64B /* Libraries */,
 				D8BD4DF3194FBF110009D64B /* Classes */,
@@ -1433,6 +1446,19 @@
 			name = Classes;
 			sourceTree = "<group>";
 		};
+		D8BD4E07194FBFEF0009D64B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D8BD4E08194FBFEF0009D64B /* iTunesArtwork@2x.ai */,
+				D8BD4E09194FBFEF0009D64B /* iTunesArtwork@2x.png */,
+				D8BD4E0A194FBFEF0009D64B /* Spacefield.png */,
+				D8BD4E0B194FBFEF0009D64B /* SpacefieldAppIcon.png */,
+				D8BD4E0C194FBFEF0009D64B /* Starfield.ai */,
+				D8BD4E0D194FBFEF0009D64B /* StarfieldAppIconV2.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1506,9 +1532,13 @@
 				D8BD4BA2194FBF0B0009D64B /* Icon@2x.png in Resources */,
 				D8BD4BB4194FBF0B0009D64B /* Icon-Small@2x.png in Resources */,
 				D8BD4BA6194FBF0B0009D64B /* Icon-72@2x.png in Resources */,
+				D8BD4E13194FBFEF0009D64B /* StarfieldAppIconV2.png in Resources */,
 				D8BD4B97194FBF0B0009D64B /* Default.png in Resources */,
+				D8BD4E0E194FBFEF0009D64B /* iTunesArtwork@2x.ai in Resources */,
+				D8BD4E10194FBFEF0009D64B /* Spacefield.png in Resources */,
 				D8BD4BA0194FBF0B0009D64B /* Icon.png in Resources */,
 				D8BD4BAE194FBF0B0009D64B /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */,
+				D8BD4E11194FBFEF0009D64B /* SpacefieldAppIcon.png in Resources */,
 				D8BD4B9D194FBF0B0009D64B /* Default-Landscape~ipad.png in Resources */,
 				D8BD4BB2194FBF0B0009D64B /* Icon-Small.png in Resources */,
 				D8BD4BB0194FBF0B0009D64B /* Icon-Small-50.png in Resources */,
@@ -1519,10 +1549,12 @@
 				D8BD4B9B194FBF0B0009D64B /* Default-568h@2x.png in Resources */,
 				D8BD4BBB194FBF0B0009D64B /* iTunesArtwork in Resources */,
 				D8BD4BB6194FBF0B0009D64B /* Icon-Spotlight-iOS7.png in Resources */,
+				D8BD4E0F194FBFEF0009D64B /* iTunesArtwork@2x.png in Resources */,
 				D8BD4BAA194FBF0B0009D64B /* Icon-76@2x.png in Resources */,
 				D8BD4BB8194FBF0B0009D64B /* Icon-Spotlight-iOS7@2x.png in Resources */,
 				D8BD4BA8194FBF0B0009D64B /* Icon-76.png in Resources */,
 				D8BD4BBD194FBF0B0009D64B /* iTunesArtwork@2x in Resources */,
+				D8BD4E12194FBFEF0009D64B /* Starfield.ai in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
